@@ -4,11 +4,13 @@ import './App.css';
 export default function App() {
   return (
     <div className="App">
-      Weather
-      <footer>
-        <a href="https://github.com/IngaMoss/weather-app-react" target="_blank" rel="noreferrer">Open-source
-          code</a>, created by Inga Mosienko
-      </footer>
+      <div className="container">
+        Weather
+        <footer>
+          <a href="https://github.com/IngaMoss/weather-app-react" target="_blank" rel="noreferrer">Open-source
+            code</a>, created by Inga Mosienko
+        </footer>
+      </div>
     </div>
   );
 }
