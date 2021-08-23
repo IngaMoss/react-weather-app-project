@@ -71,13 +71,22 @@ line-height: 22px;
   line-height: 70px;
 }
 .Weather .Unit {
-font-size: 17px;
+font-size: 15px;
 font-weight: 400;
 position: relative;
 top: -20px;
 }
+.Weather a {
+color: aliceblue;
+}
+
 .Weather img {
     height: 70px;
-    margin-top: -20px;
+    margin-top: 20px;
     display: inline-block;
+}
+.Weather .WeatherTemperature {
+  position: relative;
+  left: 60px;
+  top: -70px;
 }
