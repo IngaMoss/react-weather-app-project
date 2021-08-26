@@ -3,6 +3,7 @@ import axios from "axios";
 import './Weather.css';
 
 import WeatherInfo from "./WeatherInfo";
+import WeatherWeeklyForecast from "./WeatherWeeklyForecast";
 
 export default function Weather(props) {
     const [weatherData, setWeatherData] = useState({ ready: false });
@@ -11,6 +12,7 @@ export default function Weather(props) {
         setWeatherData({
             ready: true,
             city: response.data.name,
+            coord: response.data.coord,
             date: new Date(response.data.dt * 1000),
             iconUrl: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
             temperature: response.data.main.temp,
@@ -47,6 +49,7 @@ export default function Weather(props) {
                     </div>
                 </form >
                 <WeatherInfo data={weatherData} />
+                <WeatherWeeklyForecast coord={weatherData.coord} />
             </div>
         );
     } else {
