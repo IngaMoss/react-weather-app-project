@@ -78,6 +78,7 @@ top: -20px;
 }
 .Weather a {
 color: #f3f3f3;
+text-decoration: none;
 }
 
 .Weather img {
