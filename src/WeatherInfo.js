@@ -22,9 +22,6 @@ export default function WeatherInfo(props) {
                     <img src={props.data.iconUrl} alt={props.data.description} />
                     <WeatherTemperature celsius={props.data.temperature} />
                 </div>
-                <div className="col-4">
-                    <button type="Submit" className="Location">Location</button>
-                </div>
             </div>
         </div>
     )

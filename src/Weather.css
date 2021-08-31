@@ -26,9 +26,9 @@ padding-left: 18px;
 padding-right: 18px;
 }
 .Weather button.Location {
-margin: 15px 0 0 50px;
 box-shadow: rgb(107, 107, 109) 0px 8px 8px 0;
 position:relative;
+top: 23px;
 float: right;
 padding: 6px 28px;
 border: none;
