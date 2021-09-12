@@ -8,7 +8,7 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="New York" />
         <footer>
-          <a href="https://github.com/IngaMoss/weather-app-react" target="_blank" rel="noreferrer">Open-source
+          <a href="https://github.com/IngaMoss/react-weather-app-project" target="_blank" rel="noreferrer">Open-source
             code</a>, created by Inga Mosienko
         </footer>
       </div>
